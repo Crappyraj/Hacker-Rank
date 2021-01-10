@@ -7,7 +7,7 @@ int main()
     int l=s.length();
     string start="",end="",initial="",v="";
     int flag=2;
-    for(int i=0;i<=l;i++)
+    for(int i=0;i<l;i++)
     {
         char c=s.at(i);
         if(c=='<')
@@ -62,3 +62,5 @@ int main()
     }
     return 0;
 }
+
+    
